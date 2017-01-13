@@ -1,0 +1,26 @@
+Reflections on GitHub Course:
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+1. Reverting back to older version saves time and effort in re-work
+2. Change log can be useful in tracking the work progress
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do it Git, vs having versions automatically saved, like Google docs does?
+Pros:
+1. You can avoid multiple unwanted versions 
+2. Flexible on frequency of commits
+Cons:
+1. If you delay long, there is a chance of data loss
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+For a project, you tend to work on multiple files for a change and it is useful to be allow saving multiple files in one commit.
+
+How can you use the commands git log and git diff to view the history of files?
+1. Go to the folder which is in git, type git log to view version history
+2. To compare two changes between first and second commits, use git diff <firstcommitid> <secondcommitid>
+
+How might using version control make you more confident to make changes that could break something?
+As reverting to any previous version is easy, I might feel more confident to make those changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I would like to try using Git for all my local code files / projects.
