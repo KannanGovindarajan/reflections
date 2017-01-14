@@ -22,4 +22,5 @@ Easy: no or less learning curve to work on cloud drive or emails
 Hard: (1) Tracking and merging changes of others (2) maintaining copies of changes 
 
 When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
-Working on separate branch allows us to work on future releases, POCs,  parallel releases without disturbing the current production version.
+(1) Working on separate branch allows us to work on future releases, POCs,  parallel releases without disturbing the current production version.
+(2) You could make your changes directly to the master branch in your fork, but when contributing to a public repository, it’s standard practice to make the changes in a non-master branch within the fork. This way, you can easily keep your master branch up-to-date with master of the original repository, and merge changes from master into your branch when you are ready.
