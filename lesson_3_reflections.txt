@@ -15,3 +15,8 @@ What is the benefit of having a copy of the last known state of the remote store
 Is to compare last known state of remote stored locally with state of remote copy
 - performs fast-forward merges if local changes added after last known state of remote stored locally is ancestor of changes made in remote copy
 - otherwise signals auto-merge conflict and make the user to manually merge and push the changes to remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+We can keep the files in the cloud drive or email and collaborate with others.
+Easy: no or less learning curve to work on cloud drive or emails
+Hard: (1) Tracking and merging changes of others (2) maintaining copies of changes 
